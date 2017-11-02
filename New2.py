@@ -2,7 +2,7 @@
 
 import Reo
 import requests
-from TOBY.lib.curve.ttypes import *
+from Reo.lib.curve.ttypes import *
 from datetime import datetime
 # https://kaijento.github.io/2017/05/19/web-scraping-youtube.com/
 # from imgurpython import ImgurClient
