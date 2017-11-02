@@ -33,20 +33,20 @@ sys.setdefaultencoding('utf-8')
 album = None
 image_path = 'tmp/tmp.jpg'
 
-helpMessage ="""!CommandMember!
+helpMessage ="""!FORMember!
 => Creator
 => Tob say
 => GCreator
 => .music
 => .Youtube
 
-!Command Creator!
+!FOR Creator!
 => Admin add @
 => Admin remove @
 => Adminlist
 => InviteMeTo:
 
-!Command Admin!
+!FOR Admin!
 => Id
 => Mid
 => Mid @
@@ -71,13 +71,13 @@ helpMessage ="""!CommandMember!
 => Steal + Mid
 => Steal @
 
-!Command Mimic!
+!FOR Mimic!
 => Mimic @
 => Mimic:add: @
 => Mimic:del: @
 => ListTarget
 
-!CommandPenting!
+!FORPenting!
 => Guest On/Off
 => Mad On/Off
 => Qr On/Off
@@ -92,7 +92,7 @@ helpMessage ="""!CommandMember!
 ==================================================
 BOT : Reo
 SUPPORT BY : CYBER BOT CRIME
-Hanya Admin Yang Bisa Menggunakan Bot
+Admin Reo Bot
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
