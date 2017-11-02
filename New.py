@@ -75,7 +75,7 @@ helpMessage ="""!FORLIST!
 => Mimic:del: @
 => ListTarget
 
-!FORPenting!
+!FORGUY!
 => Guest On/Off
 => Mad On/Off
 => Qr On/Off
@@ -98,8 +98,8 @@ mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 
 Bots=[mid,Amid]
-admin=["ua7fb5762d5066629323d113e1266e8ca","uc8e2c2b906e2322592c6d8f91a0957f7","u72ceee4cc14716563cf33373d09e515e"]
-creator=["ua7fb5762d5066629323d113e1266e8ca","uc8e2c2b906e2322592c6d8f91a0957f7","u72ceee4cc14716563cf33373d09e515e"]
+admin=["u72ceee4cc14716563cf33373d09e515e"]
+creator=["u72ceee4cc14716563cf33373d09e515e"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -107,9 +107,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Owner : line://ti/p/~tobyg74",
+    'message':"Owner : line://ti/p/~Reo",
     "lang":"JP",
-    "comment":"Owner : line://ti/p/~tobyg74",
+    "comment":"Owner : line://ti/p/~Reo",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
