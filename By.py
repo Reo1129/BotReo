@@ -28,8 +28,8 @@ sys.setdefaultencoding('utf-8')
 # image_path = 'tmp/tmp.jpg'
 
 helpMessage ="""!FORLIST!
-=> Creator = Melihat Pembuat Bot
-=> Tob say = Mengikuti Apa Yang DiKatakan
+=> Creator = Reo Bot
+=> Tob say = Reo
 => Gcreator = Check Creator Grup
 !FOR Creator!
 => Admin add @ = Menambahkan Admin
