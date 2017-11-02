@@ -27,11 +27,11 @@ sys.setdefaultencoding('utf-8')
 # album = None
 # image_path = 'tmp/tmp.jpg'
 
-helpMessage ="""!Forlist!
+helpMessage ="""!FORLIST!
 => Creator = Melihat Pembuat Bot
 => Tob say = Mengikuti Apa Yang DiKatakan
 => Gcreator = Check Creator Grup
-!Command Creator!
+!FOR Creator!
 => Admin add @ = Menambahkan Admin
 => Admin remove @ = Menghapus Admin
 => Adminlist = Cek Admin
@@ -83,7 +83,7 @@ helpMessage ="""!Forlist!
 ==================================================
 BOT : Reo
 SUPPORT BY : CYBER BOT CRIME
-Hanya Admin Yang Bisa Menggunakan Bot
+Admin Reo Bot
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
