@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import TOBY
-from TOBY.lib.curve.ttypes import *
+import Reo
+from Reo.lib.curve.ttypes import *
 from datetime import datetime
 # from imgurpython import ImgurClient
 import time,random,sys,json,codecs,threading,glob,re
 
-cl = TOBY.LINE()
+cl = Reo.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
@@ -27,7 +27,7 @@ sys.setdefaultencoding('utf-8')
 # album = None
 # image_path = 'tmp/tmp.jpg'
 
-helpMessage ="""!CommandMember!
+helpMessage ="""!Forlist!
 => Creator = Melihat Pembuat Bot
 => Tob say = Mengikuti Apa Yang DiKatakan
 => Gcreator = Check Creator Grup
@@ -35,7 +35,7 @@ helpMessage ="""!CommandMember!
 => Admin add @ = Menambahkan Admin
 => Admin remove @ = Menghapus Admin
 => Adminlist = Cek Admin
-!Command Admin!
+!For Admin!
 => Id
 => Mid
 => Mid @
@@ -63,13 +63,13 @@ helpMessage ="""!CommandMember!
 => Check > Absen
 => Steal + Mid
 => Steal @
-!Command Mimic!
+!For Mimic!
 => Mimic on/off
 => Mimic @
 => Mimic:add: @
 => Mimic:del: @
 => ListTarget
-!CommandPenting!
+!ForPenting!
 => Guest On/Off
 => Mad On/Off
 => Protect On/Off
@@ -93,7 +93,7 @@ Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
 admin=["ua7fb5762d5066629323d113e1266e8ca","uc8e2c2b906e2322592c6d8f91a0957f7","u72ceee4cc14716563cf33373d09e515e"]
-creator=["ua7fb5762d5066629323d113e1266e8ca"]
+creator=["u72ceee4cc14716563cf33373d09e515e"]
 wait = {
     'contact':False,
     'autoJoin':True,
