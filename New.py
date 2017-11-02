@@ -30,7 +30,7 @@ sys.setdefaultencoding('utf-8')
 # album = None
 # image_path = 'tmp/tmp.jpg'
 
-helpMessage ="""!FOR list!
+helpMessage ="""!FORlist!
 => Creator
 => Tob say
 => GCreator
