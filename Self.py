@@ -28,8 +28,8 @@ sys.setdefaultencoding('utf-8')
 # image_path = 'tmp/tmp.jpg'
 
 helpMessage ="""!FORLIST!
-=> Creator = Melihat Pembuat Bot
-=> Tob say = Mengikuti Apa Yang DiKatakan
+=> Creator = Reo Bot
+=> Tob say = Reo
 => Gcreator = Check Creator Grup
 
 !FOR Creator!
@@ -73,7 +73,7 @@ helpMessage ="""!FORLIST!
 => Mimic:del: @
 => ListTarget
 
-!FOR !
+!FORGUY !
 => Guest On/Off
 => Mad On/Off
 => Protect On/Off
@@ -97,8 +97,8 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["ua7fb5762d5066629323d113e1266e8ca","uc8e2c2b906e2322592c6d8f91a0957f7","u72ceee4cc14716563cf33373d09e515e"]
-creator=["ua7fb5762d5066629323d113e1266e8ca","u72ceee4cc14716563cf33373d09e515e"]
+admin=["u72ceee4cc14716563cf33373d09e515e"]
+creator=["u72ceee4cc14716563cf33373d09e515e"]
 wait = {
     'contact':False,
     'autoJoin':True,
