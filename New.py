@@ -12,7 +12,7 @@ cl = Reo.LINE()
 cl.login(qr=True)
 cl.loginResult
 
-ki = TOBY.LINE()
+ki = Reo.LINE()
 ki.login(qr=True)
 ki.loginResult
 
@@ -91,7 +91,7 @@ helpMessage ="""!FOR list!
 ==================================================
 BOT : Reo
 SUPPORT BY : CYBER BOT CRIME
-Hanya Admin Yang Bisa Menggunakan Bot
+Admin Reo Bot
 """
 KAC=[cl,ki]
 mid = cl.getProfile().mid
