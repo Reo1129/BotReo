@@ -32,7 +32,7 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""!FORLIST!
 => Creator
-=> Tob say
+=> Reo say
 => GCreator
 => .music
 => .Youtube
