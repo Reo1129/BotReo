@@ -17,8 +17,8 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""!FORLIST!
 
-=> Creator = Melihat Pembuat Bot
-=> Tob say = Mengikuti Apa Yang DiKatakan
+=> Creator = Reo Bot
+=> Tob say = Reo
 => Gcreator = Check Creator Grup
 
 !FOR Creator!
@@ -55,7 +55,7 @@ helpMessage ="""!FORLIST!
 => Spam = Spam Sesuai Perkataan
 => Check > Absen = Check Siders
 
-!FORPenting!
+!FORGUY!
 
 => Guest On/Off = AutoKick Bagi Yang Menginvite,Mengkick
 => Mad On/Off = AutoKick Bagi Yang Cancel
@@ -80,8 +80,8 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["ua7fb5762d5066629323d113e1266e8ca","ucc8d5eb41ba0e602b00f3711d2098855","u72ceee4cc14716563cf33373d09e515e"]
-creator=["ua7fb5762d5066629323d113e1266e8ca","u72ceee4cc14716563cf33373d09e515e"]
+admin=["u72ceee4cc14716563cf33373d09e515e"]
+creator=["u72ceee4cc14716563cf33373d09e515e"]
 wait = {
     'contact':False,
     'autoJoin':True,
