@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
 
-import TOBY
-from TOBY.lib.curve.ttypes import *
+import Reo
+from Reo.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
-cl = TOBY.LINE()
+cl = Reo.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = TOBY.LINE()
+ki = Reo.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
-ki2 = TOBY.LINE()
+ki2 = Reo.LINE()
 ki2.login(qr=True)
 ki2.loginResult()
 
@@ -84,7 +84,7 @@ helpMessage ="""    =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ
 􀜁􀇔􏿿 [Staff add/remove @]
          ✯==== Creator ====✯
 	
-  http://line.me/ti/p/~tobyg74
+  http://line.me/ti/p/~Reo
 """
 helo=""
 
@@ -93,8 +93,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots = [mid,kimid,ki2mid]
-admsa = "ua7fb5762d5066629323d113e1266e8ca"
-admin = "uc8e2c2b906e2322592c6d8f91a0957f7"
+admsa = "u72ceee4cc14716563cf33373d09e515e"
+admin = "u72ceee4cc14716563cf33373d09e515e"
 
 wait = {
     'contact':False,
@@ -353,7 +353,8 @@ def bot(op):
             elif "Bot2" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ki2mid}
-                ki2.sendMessage(msg)
+                ki2.sendMessage(msg)
+
             elif msg.text in ["Bot1 Gift","Bot1 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
@@ -1607,7 +1608,8 @@ def bot(op):
                 text = profile.displayName + "􀜁􀅔􏿿"
                 ki.sendText(msg.to, text)
                 profile = ki3.getProfile()
-                text = profile.displayName + "􀜁􀅔􏿿"
+                text = profile.displayName + "􀜁􀅔􏿿"
+
 #-------------------------------------------------------------------
 
 #------------------------------------------------------------------	
