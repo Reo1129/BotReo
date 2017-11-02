@@ -17,8 +17,8 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""!FORLIST!
 
-=> Creator = Melihat Pembuat Bot
-=> Tob say = Mengikuti Apa Yang DiKatakan
+=> Creator =  Reo Bot
+=> Tob say =  Reo DiKatakan
 => Gcreator = Check Creator Grup
 
 !FOR Creator!
