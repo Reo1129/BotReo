@@ -94,7 +94,7 @@ kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots = [mid,kimid,ki2mid]
 admsa = "ua7fb5762d5066629323d113e1266e8ca"
-admin = "uc8e2c2b906e2322592c6d8f91a0957f7"
+admin = "u72ceee4cc14716563cf33373d09e515e"
 
 wait = {
     'contact':False,
@@ -353,7 +353,8 @@ def bot(op):
             elif "Bot2" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ki2mid}
-                ki2.sendMessage(msg)
+                ki2.sendMessage(msg)
+
             elif msg.text in ["Bot1 Gift","Bot1 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
@@ -1607,7 +1608,8 @@ def bot(op):
                 text = profile.displayName + "􀜁􀅔􏿿"
                 ki.sendText(msg.to, text)
                 profile = ki3.getProfile()
-                text = profile.displayName + "􀜁􀅔􏿿"
+                text = profile.displayName + "􀜁􀅔􏿿"
+
 #-------------------------------------------------------------------
 
 #------------------------------------------------------------------	
